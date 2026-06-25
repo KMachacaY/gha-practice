@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="1" errors="0" time="3.532">
+  <testsuite name="undefined" errors="0" failures="1" skipped="0" timestamp="2026-06-25T21:19:59" time="2.784" tests="3">
+    <testcase classname=" add: 2 + 3 equals 5" name=" add: 2 + 3 equals 5" time="0.003">
+    </testcase>
+    <testcase classname=" subtract: 10 - 4 equals 6" name=" subtract: 10 - 4 equals 6" time="0">
+    </testcase>
+    <testcase classname=" INTENTIONAL FAIL: add returns wrong value" name=" INTENTIONAL FAIL: add returns wrong value" time="0.003">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 999
+Received: 2
+    at Object.toBe (C:\Users\kenia.machaca\practices\gha-practice\src\math.test.js:12:21)
+    at Promise.finally.completed (C:\Users\kenia.machaca\practices\gha-practice\node_modules\jest-circus\build\jestAdapterInit.js:1561:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (C:\Users\kenia.machaca\practices\gha-practice\node_modules\jest-circus\build\jestAdapterInit.js:1501:10)
+    at _callCircusTest (C:\Users\kenia.machaca\practices\gha-practice\node_modules\jest-circus\build\jestAdapterInit.js:1011:40)
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at _runTest (C:\Users\kenia.machaca\practices\gha-practice\node_modules\jest-circus\build\jestAdapterInit.js:951:3)
+    at C:\Users\kenia.machaca\practices\gha-practice\node_modules\jest-circus\build\jestAdapterInit.js:853:7
+    at _runTestsForDescribeBlock (C:\Users\kenia.machaca\practices\gha-practice\node_modules\jest-circus\build\jestAdapterInit.js:866:11)
+    at run (C:\Users\kenia.machaca\practices\gha-practice\node_modules\jest-circus\build\jestAdapterInit.js:765:3)
+    at runAndTransformResultsToJestFormat (C:\Users\kenia.machaca\practices\gha-practice\node_modules\jest-circus\build\jestAdapterInit.js:1993:21)
+    at jestAdapter (C:\Users\kenia.machaca\practices\gha-practice\node_modules\jest-circus\build\runner.js:111:19)
+    at runTestInternal (C:\Users\kenia.machaca\practices\gha-practice\node_modules\jest-runner\build\index.js:276:16)
+    at runTest (C:\Users\kenia.machaca\practices\gha-practice\node_modules\jest-runner\build\index.js:344:7)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
