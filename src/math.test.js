@@ -10,4 +10,4 @@ test('subtract: 10 - 4 equals 6', () => {
 
 test('INTENTIONAL FAIL: add returns wrong value', () => {
   expect(add(1, 1)).toBe(999);
-});
+}); 
