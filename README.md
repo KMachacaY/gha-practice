@@ -1,10 +1,5 @@
-# \# GHA Practice
+# GHA Practice
 
-# 
+![CI](https://github.com/KMachacaY/gha-practice/actions/workflows/ci.yml/badge.svg)
 
-# !\[CI](https://github.com/KMachacaY/gha-practice/actions/workflows/ci.yml/badge.svg)
-
-# 
-
-# This repository demonstrates GitHub Actions workflow management.
-
+This repository demonstrates GitHub Actions workflow management.
